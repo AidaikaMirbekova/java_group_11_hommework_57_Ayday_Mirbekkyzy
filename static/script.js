@@ -11,3 +11,10 @@ const Post={
     author:User,
     image:'horror.jpg',
     description:'Hello'};
+
+//Создан объект Класса коментарий. Он также будет ссылатся единственного пользователя.
+const Comment = {
+    id:1,
+    author:User,
+    post:Post,
+    commentText:'Good foto)'};
