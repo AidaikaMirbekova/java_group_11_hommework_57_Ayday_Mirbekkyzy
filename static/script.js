@@ -25,3 +25,11 @@ let postArray=[
     {id:2,author:User,image:'winter.jpg',description:'So cold'},
     {id:3,author:User,image:'autumn.jpg',description:'So wildly'},
     {id:4,author:User,image:'spring.jpg',description:'So green'},];
+
+// Добавление новых постов в массив постов
+function addPosts(post){
+    let newPost = postArray.push(post)
+};
+
+let newPostadd={id:12,author:User,image:'cat.kg',description:'hello'};
+addPosts(newPostadd);
