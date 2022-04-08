@@ -33,3 +33,13 @@ function addPosts(post){
 
 let newPostadd={id:12,author:User,image:'cat.kg',description:'hello'};
 addPosts(newPostadd);
+
+// функция сменяющий статус объекта User с неавторизованного на авторизованный и обратно.
+function changeAutorizedStatus(user){
+    if(user.autorized===true){
+        user.autorized=false;}
+    else{user.autorized=true;}};
+
+changeAutorizedStatus(User);
+
+
