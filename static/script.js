@@ -18,3 +18,10 @@ const Comment = {
     author:User,
     post:Post,
     commentText:'Good foto)'};
+
+// Массив постов
+let postArray=[
+    {id:1,author:User,image:'summer.jpg',description:'So sunny'},
+    {id:2,author:User,image:'winter.jpg',description:'So cold'},
+    {id:3,author:User,image:'autumn.jpg',description:'So wildly'},
+    {id:4,author:User,image:'spring.jpg',description:'So green'},];
