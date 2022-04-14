@@ -1,0 +1,24 @@
+Index: static/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Создан объект каласса Пользователя,\r\nconst User = {\r\n    id: 1,\r\n    email: 'mike@gmail.com',\r\n    autorized:true};\r\n\r\n// Создан объект класса Постов\r\nconst Post={\r\n    id:1,\r\n    author:User,\r\n    image:'horror.jpg',\r\n    description:'Hello'};
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/static/script.js b/static/script.js
+--- a/static/script.js	(revision 3eb7dbd6bff7d584ba0ea46b76de2d684e57ff3e)
++++ b/static/script.js	(date 1649392454220)
+@@ -4,9 +4,10 @@
+     email: 'mike@gmail.com',
+     autorized:true};
+ 
+-// Создан объект класса Постов
++// Создан объект класса Постов. я решила связать user  и  post просто указав ссылку на сам объект, путем его объявления.
++// Так как он будет в будущем ссылатся именно на данного пользователя.
+ const Post={
+     id:1,
+     author:User,
+     image:'horror.jpg',
+-    description:'Hello'};
+\ No newline at end of file
++    description:'Hello'};

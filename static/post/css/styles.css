@@ -1,0 +1,18 @@
+.body {
+    font-family: 'Istok Web', sans-serif;
+    margin: 0;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    border: 5px black;
+
+}
+
+.btn {
+    margin: 15rem auto;
+    display: block;
+
+}
