@@ -34,3 +34,11 @@ function addBookmarks() {
     })
 }
 addBookmarks();
+
+function showSplashScreen() {
+    const element = document.querySelector('.posts');
+    element.innerHTML;
+    element.hidden = true;
+}
+
+showSplashScreen();
