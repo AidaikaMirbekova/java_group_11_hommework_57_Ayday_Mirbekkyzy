@@ -20,3 +20,17 @@ function clickLike() {
 
 
 clickLike();
+
+function addBookmarks() {
+    const bookmark = document.getElementsByClassName("bi-bookmark")[0];
+    bookmark.addEventListener('click', e => {
+        if (bookmark.classList.contains("bi-bookmark")) {
+            bookmark.classList.remove("bi-bookmark")
+            bookmark.classList.add("bi-bookmark-fill")
+        } else {
+            bookmark.classList.remove("bi-bookmark-fill")
+            bookmark.classList.add("bi-bookmark")
+        }
+    })
+}
+addBookmarks();
