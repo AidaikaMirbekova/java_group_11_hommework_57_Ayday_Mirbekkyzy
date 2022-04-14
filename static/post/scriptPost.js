@@ -42,3 +42,16 @@ function showSplashScreen() {
 }
 
 showSplashScreen();
+
+function hideSplashScreen() {
+    const buttonSignIn = document.querySelector(".sign-in");
+    console.log(buttonSignIn)
+    const hiddenContent = document.querySelector('.posts');
+    console.log(hiddenContent)
+    buttonSignIn.addEventListener('click', e => {
+        hiddenContent.hidden = false;
+        buttonSignIn.innerHTML;
+        buttonSignIn.hidden = true;
+    })
+}
+hideSplashScreen();
